@@ -62,6 +62,9 @@ This backend system provides a robust platform for managing appointments, doctor
 git clone https://github.com/Sayon008/AppointmentScheduler-SpringBoot.git
 cd AppointmentScheduler-SpringBoot
 
+```
+
+```bash
 # Database Config
 spring.datasource.url=jdbc:postgresql://localhost:5432/schedula_db
 spring.datasource.username=your_db_username
