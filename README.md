@@ -64,18 +64,24 @@ cd AppointmentScheduler-SpringBoot
 
 ```
 
+### Database Config
 ```bash
-# Database Config
 spring.datasource.url=jdbc:postgresql://localhost:5432/schedula_db
 spring.datasource.username=your_db_username
 spring.datasource.password=your_db_password
 spring.jpa.hibernate.ddl-auto=update
+```
 
-# JWT Config
+### JWT Config
+
+```
 jwt.secret=your_jwt_secret
 jwt.expiration=3600000
+```
 
-# Email Config
+### Email Config
+
+```
 spring.mail.username=your_email@example.com
 spring.mail.password=your_email_password
 spring.mail.host=smtp.gmail.com
@@ -83,7 +89,6 @@ spring.mail.port=587
 spring.mail.protocol=smtp
 spring.mail.properties.mail.smtp.auth=true
 spring.mail.properties.mail.smtp.starttls.enable=true
-
 ```
 
 ### Create Database
